@@ -7,6 +7,9 @@ You will need the following to proceed:
 * OpenText Content Server with the SOAP service endpoints online reachable.
 * OpenText Content Server login credentials.
 
+## How to get credentials
+Once a license has been purchased an email will be sent with a link to the settings portal and login credentials to this portal. In this portal the connector can be configured and the API key needed to use the connector can be copied.
+
 ## Supported Operations
 The connector supports the following operations:
 
@@ -18,7 +21,7 @@ The connector supports the following operations:
 * `Get document`: Get the document from Content Server
 * `Get document properties`: Get the properties of the document from Content Server
 * `Get document content`: Get the content of the document from Content Server
-* `Delete document`: Delete the document from Content Server
+* `Delete document`: Delete the document in Content Server
 * `Move document`: Move the document to a new folder in Content Server
 * `Copy document`: Copy the document to a different folder in Content Server
 
@@ -26,7 +29,7 @@ The connector supports the following operations:
 * `Create folder`: Create the folder in Content Server
 * `Update folder`: Update the folder in Content Server
 * `Get folder`: Get the folder from Content Server
-* `Delete folder`: Delete the folder from Content Server
+* `Delete folder`: Delete the folder in Content Server
 * `Get folder children`: Get the children of the folder from Content Server
 
 ### Search
